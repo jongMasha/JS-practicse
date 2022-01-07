@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <img id="Hyonbong1" src="img/Hyonbong1.jpg" alt="Hyonbong1"width="300px" height="300ps">
+    <img id="wraith1" src="img/wraith1.jpg" alt="wraith1">
+    <img id="wraith2" src="img/wraith2.jpg" alt="wraith2">
+    <img id="wraith3" src="img/wraith3.jpg" alt="wraith3"><br>
+    <img id="cloaking" src="img/cloaking.jpg" alt="cloaking" width="100px" height="100ps" style="margin-top: 330px">
+        <script>
+        $(document).ready(function(){
+          $("#cloaking").click(function(){
+            // $("#div1").fadeToggle();
+            // $("#div2").fadeToggle("slow");
+            $("#Hyonbong1").fadeToggle(3000);
+            $("#wraith1").fadeToggle(3000);
+            $("#wraith2").fadeToggle(3000);
+            $("#wraith3").fadeToggle(3000);
+                    });
+        });
+        </script>
+    <!-- <button>Click to fade in/out boxes</button><br><br> -->
+
+<!-- <div id="div1" style="width:80px;height:80px;background-color:red;"></div>
+    <br> -->
+<!-- <div id="div2" style="width:80px;height:80px;background-color:green;"></div>
+<br> -->
+<!-- <div id="div3" style="width:80px;height:80px;background-color:blue;"></div> -->
+</body>
+</html>
